@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>online book library</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body>
+    <section class="container mainsec">
+        <div class="row>" <article class=" col-sm-6 addbook">
+            <div class="form-group">
+                <aria label for="booktitle">Book Title:</label>
+                    <input type="text" class="form-control" id="booktitle">
+                    <aria label for="author">Author:</label>
+                        <input type="text" class="form-control" id="author">
+                        <aria label for="page">Page:</label>
+                            <input type="number" class="form-control" id="page">
+                            <aria label for="publishdate">Publish Date :</label>
+                                <input type="date" class="form-control" id="publishdate"></br>
+                                <button type="button" class="btn btn-default">+ Add</button>
+            </div>
+            </article>
+        </div>
+        <table class="table table-striped">
+
+            <thead>
+
+                <tr>
+                    <th id="booktitle">Book Title</th>
+                    <th id="author">Author</th>
+                    <th id="page">Page</th>
+                    <th id="pdate">Publish Date</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+
+
+
+        </table>
+    </section>
+    <script src="books.js"></script>
+</body>
+
+
+</html>
