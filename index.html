@@ -13,21 +13,21 @@
 <body>
     <section class="container mainsec">
         <div class="row>" <article class=" col-sm-6 addbook">
-          <div class="panel panel-primary">
-              <div class="panel-heading"><span class="fa fa-book"> </span> Add Book</div>
-              <div class="panel-body">
-            <div class="form-group">
-                <aria label for="booktitle">Book Title:</label>
-                    <input type="text" class="form-control" id="booktitle">
-                    <aria label for="author">Author:</label>
-                        <input type="text" class="form-control" id="author">
-                        <aria label for="page">Page:</label>
-                            <input type="number" class="form-control" id="page">
-                            <aria label for="publishdate">Publish Date :</label>
-                                <input type="date" class="form-control" id="publishdate"></br>
-                                <button type="button" class="btn btn-default">+ Add</button>
-                              </div>
-                            </div>
+            <div class="panel panel-primary">
+                <div class="panel-heading"><span class="fa fa-book"> </span> Add Book</div>
+                <div class="panel-body">
+                    <div class="form-group">
+                        <aria label for="booktitle">Book Title:</label>
+                            <input type="text" class="form-control" id="booktitle" required>
+                            <aria label for="author">Author:</label>
+                                <input type="text" class="form-control" id="author" required>
+                                <aria label for="page">Page:</label>
+                                    <input type="number" class="form-control" id="page" required>
+                                    <aria label for="publishdate">Publish Date :</label>
+                                        <input type="date" class="form-control" id="publishdate" required></br>
+                                        <button type="button" class="btn btn-default">+ Add</button>
+                    </div>
+                </div>
             </div>
             </article>
         </div>
@@ -50,7 +50,7 @@
 
         </table>
     </section>
-    <script src="book.js"></script>
+    <script src="books.js"></script>
 </body>
 
 
